@@ -55,6 +55,11 @@ li a {
     text-decoration: none;
 }
 
+li a:hover {
+    background-color: #4aaaa5;
+    color: white;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -82,13 +87,15 @@ li a {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #777777;
+    background-color: #666666;
     color: white;
     text-align: center;
-    height: 50px;
+    height: 40px;
     border-top: 3px solid #4aaaa5;
     margin-top: 20px;
-    line-height: 20px;
+    font-size: 10px;
+    padding-top: 20px;
+    line-height: 40px;
 }
 
 h2 {
